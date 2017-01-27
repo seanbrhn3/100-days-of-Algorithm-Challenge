@@ -7,3 +7,5 @@ def countBits(n):
             if(num==1):
                 counter +=1
     return counter
+
+    #clever solution: return bin(n).count("1") :(
